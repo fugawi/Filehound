@@ -8,6 +8,9 @@ Filehound is a penetration testing tool for searching file name/content based on
 	SearchType - Type of search to be performed (user supplied) - required param
 	Options - ld -> list directory, lf -> list file, sn -> search file name, sc -> search file content 
 
+	Depth - Recursive search depth
+	Options - Integer specifying  how deep to conduct recursive search
+
 	FileString
 	String to be searched for in filename  
 	Options - user supplied filename string to be searched, allows for wildcard *highly recommend wildcard*
